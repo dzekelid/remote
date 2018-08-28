@@ -9,11 +9,77 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Remote
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/aws-device-farm/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Device Farm API - Create Remote Access Session
+  x-api-slug: actioncreateremoteaccesssession-get
+  description: Specifies and starts a remote access session.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/aws-device-farm/actioncreateremoteaccesssession-get-openapi.md
+- name: AWS Device Farm API - Delete Remote Access Session
+  x-api-slug: actiondeleteremoteaccesssession-get
+  description: Deletes a completed remote access session and its results.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/aws-device-farm/actiondeleteremoteaccesssession-get-openapi.md
+- name: AWS Device Farm API - Get Remote Access Session
+  x-api-slug: actiongetremoteaccesssession-get
+  description: Returns a link to a currently running remote access session.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/aws-device-farm/actiongetremoteaccesssession-get-openapi.md
+- name: AWS Device Farm API - Install To Remote Access Session
+  x-api-slug: actioninstalltoremoteaccesssession-get
+  description: Installs an application to the device in a remote access session.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/aws-device-farm/actioninstalltoremoteaccesssession-get-openapi.md
+- name: AWS Device Farm API - List Remote Access Sessions
+  x-api-slug: actionlistremoteaccesssessions-get
+  description: Returns a list of all currently running remote access sessions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/aws-device-farm/actionlistremoteaccesssessions-get-openapi.md
+- name: AWS Device Farm API - Stop Remote Access Session
+  x-api-slug: actionstopremoteaccesssession-get
+  description: Ends a specified remote access session.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/aws-device-farm/actionstopremoteaccesssession-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.database.migration.service.api.gallery.streamdata.io

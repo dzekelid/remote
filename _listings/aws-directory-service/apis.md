@@ -15,8 +15,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Remote
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/aws-directory-service/apis.md
 specificationVersion: "0.14"
 apis:

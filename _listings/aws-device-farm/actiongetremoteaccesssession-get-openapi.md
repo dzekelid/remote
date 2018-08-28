@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: AWS Device Farm
-x-complete: 1
+x-complete: 0
 info:
-  title: AWS Device Farm API
+  title: AWS Device Farm API Get Remote Access Session
   version: 1.0.0
+  description: Returns a link to a currently running remote access session.
 schemes:
 - http
 produces:
@@ -75,64 +77,17 @@ paths:
           description: OK
       tags:
       - Remote Access Sessions
-  /?Action=InstallToRemoteAccessSession:
-    get:
-      summary: Install To Remote Access Session
-      description: Installs an application to the device in a remote access session.
-      operationId: installToRemoteAccessSession
-      x-api-path-slug: actioninstalltoremoteaccesssession-get
-      parameters:
-      - in: query
-        name: appArn
-        description: The Amazon Resource Name (ARN) of the app about which you are
-          requesting information
-        type: string
-      - in: query
-        name: remoteAccessSessionArn
-        description: The Amazon Resource Name (ARN) of the remote access session about
-          which you are requesting information
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Remote Access Sessions
-  /?Action=ListRemoteAccessSessions:
-    get:
-      summary: List Remote Access Sessions
-      description: Returns a list of all currently running remote access sessions.
-      operationId: listRemoteAccessSessions
-      x-api-path-slug: actionlistremoteaccesssessions-get
-      parameters:
-      - in: query
-        name: arn
-        description: The Amazon Resource Name (ARN) of the remote access session about
-          which you are requesting information
-        type: string
-      - in: query
-        name: nextToken
-        description: An identifier that was returned from the previous call to this
-          operation, which can be used to return the next set of items in the list
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Remote Access Sessions
-  /?Action=StopRemoteAccessSession:
-    get:
-      summary: Stop Remote Access Session
-      description: Ends a specified remote access session.
-      operationId: stopRemoteAccessSession
-      x-api-path-slug: actionstopremoteaccesssession-get
-      parameters:
-      - in: query
-        name: arn
-        description: The Amazon Resource Name (ARN) of the remote access session you
-          wish to stop
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Remote Access Sessions
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

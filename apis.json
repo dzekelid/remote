@@ -1,0 +1,90 @@
+{
+	"name": "Streadata.io API Gallery - Remote",
+	"description": "This is a repository of remote APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/remote.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://remote.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Remote",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Directory Service",
+			"x-api-slug": "aws-directory-service",
+			"description": "AWS Directory Service for Microsoft Active Directory (Enterprise Edition), also known as AWS Microsoft AD, enables your directory-aware workloads and AWS resources to use managed Active Directory in the AWS Cloud. The Microsoft AD service is built on actual Microsoft Active Directory and does not require you to synchronize or replicate data from your existing Active Directory to the cloud. You can use standard Active Directory administration tools and take advantage of built-in Active Directory features such as Group Policy, trusts, and single sign-on. With Microsoft AD, you can easily joinAmazon EC2andAmazon RDS for SQL Serverinstances to a domain, and useAWS Enterprise IT applicationssuch asAmazon WorkSpaceswith Active Directory users and groups.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png",
+			"humanURL": "https://aws.amazon.com/directoryservice/",
+			"baseURL": ":///",
+			"tags": "Remote",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/aws-directory-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Device Farm",
+			"x-api-slug": "aws-device-farm",
+			"description": "AWS Device Farm is an app testing service that lets you test and interact with your Android, iOS, and web apps on many devices at once, or reproduce issues on a device in real time. View video, screenshots, logs, and performance data to pinpoint and fix issues before shipping your app.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png",
+			"humanURL": "https://aws.amazon.com/device-farm/",
+			"baseURL": ":///",
+			"tags": "Remote",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/aws-device-farm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Remote",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/avaza/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Remote",
+	"include": [
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "AWS Directory Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/aws-directory-service/apis.yaml"
+		},
+		{
+			"name": "AWS Device Farm",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/aws-device-farm/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/remote/master/_listings/avaza/apis.yaml"
+		}
+	]
+}
